@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+
+        <h2>Está usted dentro o fuera de EEUU?</h2>
+      <label for="inusa" for="">Inside</label>
+        <input id="inusa" type="radio" name="vinculo" value="inside">
+      <label for="outusa" for="">Outside</label>
+        <input id="outusa" type="radio" name="vinculo" value="outside">
+      <!-- Vemos como con el name podemos hacer que se vinculen los botones
+           y así hacer que trabajen juntos "vinculo"-->
+        <h2>¿cómo estuvo el servicio?</h2>
+
+        <select class="" name="stars">
+            <option value="Great">3</option>
+            <option value="Okey">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+          <h2>Algun otro comentario?</h2>
+        <textarea name="mytext" rows="8" cols="80"></textarea>
+        <input type="submit" name="" value="SUBMIT">
+
+    </form>
+
+  </body>
+</html>
