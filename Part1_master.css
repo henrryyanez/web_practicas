@@ -1,0 +1,19 @@
+/* selected tag{
+  property: value;
+} */
+
+h1{
+  color: red;
+}
+
+li{
+  color: rgb(68, 114, 50);
+}
+
+p{
+  color: #434a7c;
+}
+
+h4{
+   color: rgba(68, 114, 50, 0.5); /*El 0 es transparente y 1 es opaco */
+}
