@@ -1,0 +1,34 @@
+h1{
+  text-align: center;
+  font-family: 'Charm', cursive;
+}
+
+.art{
+  margin: auto;
+}
+
+td{
+  background-color: black;
+  height: 300px;
+  width: 150px;
+}
+
+#one{
+  background-color: #247BA0;
+}
+
+#two{
+  background-color: #70C1B3;
+}
+
+#three{
+  background-color: #B2DBBF;
+}
+
+#four{
+  background-color: #F3FFBD;
+}
+
+#five{
+  background-color: #FF1654;
+}
