@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GAME Project</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+
+<style media="screen">
+@media screen and (min-device-width:698px) {
+  div#showgrid {
+    width: 698px;
+    margin: auto;
+  }
+}
+
+div.column {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.row {
+  width: 60%;
+  margin: auto;
+}
+
+@media (min-device-width: 698px) {
+  .column {
+    width: 130px;
+    height: 130px;
+    font-size: 70px;
+    text-align: center;
+    font-size-adjust: auto;
+    display: inline;
+    float: left;
+  }
+}
+
+.column {
+  width: 130px;
+  height: 130px;
+  margin: auto;
+}
+</style>
+
+
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Bienvenido a Tic Tac Toe!</h1>
+      <p>Presiona en el Boton para reiniciar el juego</p>
+      <p><a id="reset" class="btn btn-primary btn-lg" href="#" role="button">Reiniciar</a></p>
+    </div>
+  </div>
+
+
+
+  <div id="showgrid">
+    <div class="row">
+      <div id="r1" class="column"></div>
+      <div id="r2" class="column"></div>
+      <div id="r3" class="column"></div>
+    </div>
+    <div class="row">
+      <div id="r4" class="column"></div>
+      <div id="r5" class="column"></div>
+      <div id="r6" class="column"></div>
+    </div>
+    <div class="row">
+      <div id="r7" class="column"></div>
+      <div id="r8" class="column"></div>
+      <div id="r9" class="column"></div>
+    </div>
+  </div>
+
+
+  </body>
+  <script src="DOM4_Proyecto_Juego.js"></script>
+</html>
