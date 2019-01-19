@@ -1,0 +1,11 @@
+# Booleans
+
+True
+False
+
+# Tuples: Secuencias Inmutables
+t = (1,2,3)
+print(t[0])
+
+
+# Sets
