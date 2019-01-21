@@ -68,7 +68,11 @@ def stringBits(mystring):
 
 
 def end_other(a, b):
-  # CODE GOES HERE
+    a = a.lower()
+    b = b.lower()
+
+    # return (b.endswith(a) or a.endswith(b))
+    return a[-(len(b)):] == b or a == b[-len(a):]
 
 #####################
 ## -- PROBLEM 4 -- ##
