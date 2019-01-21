@@ -86,7 +86,10 @@ def end_other(a, b):
 # doubleChar('Hi-There') → 'HHii--TThheerree'
 
 def doubleChar(str):
-  # CODE GOES HERE
+  result = ''
+  for char in mystring:
+      result += char*2
+    return result
 
 
 #####################
