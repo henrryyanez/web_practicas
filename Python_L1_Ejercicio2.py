@@ -133,4 +133,8 @@ def fix_teen(n):
 # count_evens([1, 3, 5]) → 0
 
 def count_evens(nums):
-  # CODE GOES HERE
+  count = 0
+  for element in nums:
+      if element % 2 == 0:
+          count += 1
+    return count
