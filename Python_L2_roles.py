@@ -8,3 +8,18 @@ def my_func():
 
 print (x)
 print (my_func())
+
+#################### Ahora otro ejemplo ##################
+
+name = 'This is a global name!'
+
+def greet():
+    name = "sammy"
+
+    def hello():
+        print("hello "+name)
+
+    hello()
+
+greet()
+print(name)
